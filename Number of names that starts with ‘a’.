@@ -1,0 +1,7 @@
+a=input('Enter list of first names:')
+b=a.split(" ")
+count=0
+for i in b:
+  if i[0]=='A' or i[0]=='a':
+    count=count+1
+print("Number of names starting with 'A' are:",count)
