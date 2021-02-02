@@ -1,0 +1,3 @@
+color_list1= {'Violet','Indigo','Blue','Green','Yellow','Orange','Red'}
+color_list2= {'Red','Blue','Green','Yellow'}
+print("List of colors contained in list1 but not in list2 is: ",color_list1.difference(color_list2))
