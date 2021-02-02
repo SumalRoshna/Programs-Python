@@ -1,0 +1,6 @@
+s= {2,4,6,8,10}
+t= {3,7,9,11}
+if len(s)=len(t):
+  print("The two collections have the same length")
+else:
+  print("The length of the two collections are different") 
