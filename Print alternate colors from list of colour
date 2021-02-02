@@ -1,0 +1,9 @@
+a=input('Enter the colors: ')
+b=a.split(" ")
+print('Comma seperated list of colors: ',b)
+p=[]
+
+for i in b[::2]: 
+ p.append(i)
+print(p)
+  
