@@ -1,0 +1,5 @@
+d={18:'R',2:'B',24:'X',14:'N',8:'H'}
+x=sorted(d)
+y=sorted(d, reverse=True)
+print(x)
+print(y)
