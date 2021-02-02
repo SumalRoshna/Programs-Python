@@ -1,0 +1,5 @@
+a=list('Orange')
+print('The letters are : ',a)
+vowels=['a','e','i','o','u','A','E','I','O','U']
+x= [ i for i in a if i in vowels]
+print(x)
